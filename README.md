@@ -1,2 +1,4 @@
 # custom-react-hooks
-Created with CodeSandbox
+A collection of useful hooks in react that comes handly in day to day development.
+
+1-  useMouseCoords
