@@ -6,6 +6,7 @@
 
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .container {
@@ -16,4 +17,17 @@
 .container span {
   background-color: rgb(243, 243, 243);
   padding: 24px;
+}
+
+.App.dark {
+  color: white;
+  background: #000;
+}
+
+.App.dark .container {
+  background: #000;
+}
+
+.App.dark .container span {
+  color: #000;
 }
