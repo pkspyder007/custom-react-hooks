@@ -31,3 +31,25 @@
 .App.dark .container span {
   color: #000;
 }
+
+/* network status styles */
+
+
+.status {
+  padding: 40px;
+  min-width: 120px;
+  border-radius: 20px;
+  background-color: #eee;
+  text-align: center;
+  font-size: 80px;
+}
+
+.status.online {
+  border: 8px solid #41a700;
+  color: #41a700;
+}
+
+.status.offline {
+  border: 8px solid #f15c4f;
+  color: #f15c4f;
+}
